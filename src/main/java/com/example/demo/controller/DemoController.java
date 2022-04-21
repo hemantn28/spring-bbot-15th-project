@@ -32,4 +32,5 @@ public class DemoController {
     public double yourSalary(){
         return 85634.52;
     }
+
 }

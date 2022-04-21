@@ -9,17 +9,20 @@ public class PathVariableController {
 
 
     @RequestMapping("/message/{name}")
-    public String myApp(@PathVariable String name){
+    public String myApp(@PathVariable String name) {
+
         return "Welcome to Path Variable app "+name;
     }
 
     @RequestMapping("/trip/{city}")
     public String helloApp(@PathVariable String city){
+
         return "You are living in "+city;
     }
 
     @RequestMapping("/mobile/{place}")
     public String helloMe(@PathVariable String place){
+
         return "Are you going to "+place;
     }
 

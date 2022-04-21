@@ -9,6 +9,7 @@ public class RequestParamController {
 
     @RequestMapping("/modern")
     public String request(@RequestParam String name){
+
         return "Welcome to Request Param "+name;
     }
 

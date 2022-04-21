@@ -9,6 +9,7 @@ public class CalculatorPathVariableController {
 
     @RequestMapping("/add/{a}/{b}")
     public String addition1(@PathVariable int a,@PathVariable int b){
+
         return "addition is "+(a+b);
     }
 
